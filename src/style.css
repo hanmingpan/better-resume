@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+body {
+    font-family: "Microsoft YaHei", Heiti TC Light, "Helvetica Neue", Helvetica, STHeiTi,  sans-serif;
+    background-color: #efefef;
+    -webkit-text-size-adjust: 100% !important;
+}
+li {
+    list-style: none;
+}
+ul, ol {
+    list-style-type: none;
+    list-style-image: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 500;
+}
+
+svg {
+    fill: #c2ddb9;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.content {
+    width: 794px;
+    height: 1120px;
+    margin: 0 auto;
+    overflow: hidden;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+
+.padding {
+    padding: 24px 32px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    padding-top: 80px;
+    background-color: #333330;
+    color: #fff;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 60px;
+    margin-bottom: 8px;
+}
+
+.header p {
+    font-size: 24px;
+}
+
+.aside {
+    float: left;
+    width: 270px;
+    height: calc(100% - 250px);
+    box-sizing: border-box;
+    background-color: #d1ddd0;
+    padding-top: 50px;
+    padding-right: 16px;
+    text-align: right;
+}
+
+.aside section {
+    margin-top: 60px;
+}
+
+.aside h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "heiti";
+}
+
+.aside li {
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.main {
+    width: 524px;
+    height: 870px;
+    float: right;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding-left: 32px;
+    padding-right: 56px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "heiti";
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 4px;
+}
+
+.icon-mini {
+    width: 32px;
+    height: 32px;
+}
+
+.area {
+    padding-top: 30px;
+}
+
+.main section + section {
+    margin-top: 20px;
+}
+
+.sub {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 6px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.line {
+    font-size: 14px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #555;
+}

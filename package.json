@@ -1,0 +1,25 @@
+{
+  "name": "better-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp serve",
+    "dev": "gulp serve",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hanmingpan/better-resume.git"
+  },
+  "author": "https://github.com/hanmingpan",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.2.0",
+    "puppeteer": "^1.8.0"
+  },
+  "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": true
+}
